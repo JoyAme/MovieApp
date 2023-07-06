@@ -1,0 +1,360 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .rating1{
+    position: absolute;
+   
+   left:0px;
+   background-color: red;
+ border-style: none;
+ cursor: pointer;
+ color: white;
+ padding: 15px;
+   border-bottom-right-radius: 30px;
+} */
+/* .Watch{
+    font-size: 20px;
+    background-color: white;
+    position: absolute;
+    bottom: 8px;
+    font-weight: 400px;
+    width:50%;
+    text-align: center;
+    border-radius: 3px;
+    padding: 10px;
+    left:7rem;
+}
+.imgy{
+    border-radius: 7px;
+    width:120%;
+   text-align: center;
+    object-fit: contain;
+height:150%;
+   
+}
+.card-img{
+    position: relative;
+    margin: 20px;
+text-align: center;
+width: 350px;
+cursor: pointer;
+border-radius: 7px;
+}
+.imy{
+    width:100%;
+    height:190px;
+    margin-top: 10px;
+    object-fit: cover;
+}
+.playit{
+    border-radius: 8px;
+    text-align: center;
+    padding: 12px;
+    cursor: pointer;
+    color: black;
+    margin-top: 10px;
+    background-color: rgb(245, 243, 241);
+}
+.playitt{
+    border-radius: 8px;
+    text-align: center;
+    padding: 12px;
+    margin-top: 7px;
+    cursor: pointer;
+    background-color: rgba(50, 50, 49, 0.587);
+}
+.show{
+    margin: auto;
+    position: relative;
+background-color: rgb(30, 31, 30);
+width: 500px;
+border-radius: 10px;
+color: white;
+display:none;
+cursor: pointer;
+height: 300%;
+} */
+.showmodal{
+   
+}
+/* span{
+    color:red;
+    font-size: 35px;
+}
+.ratings{
+    background-color: red;
+    width:32px;
+    margin-top: 8px;
+    margin-right: 8px;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+/* .update{
+    margin:10px;
+}
+.description{
+    margin-top: 15px;
+    font-size: 16px;
+}
+.iconss{
+    margin-left: 20px;
+    display: flex;
+    gap:58px;
+    padding-bottom: 40px;
+    margin-top: 20px;
+}
+.icon-To{
+    display: grid;
+}
+.icon{
+    margin-bottom: 7px;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+}
+.year{
+    margin-top: 15px;
+}
+.tops{
+    display:flex;
+    align-items: center;
+}
+.casts{
+    font-size: 18px;
+    margin-top: 5px;
+    color: rgba(134, 100, 13, 0.565);
+} */
+/* .Times{
+    
+    position: absolute;
+    top: 20px;
+   right:20px;
+ border-style: none;
+ cursor: pointer;
+   border-bottom-left-radius: 10px;
+}
+.timess{
+    font-size: 34px;
+}
+.list-rate{
+    color: rgba(134, 100, 13, 0.565);   
+} */
+/* third */
+/* .card-imgg{
+  text-align: center;
+    margin-left: 60px;
+    position: relative;
+}
+.imgyy{
+    border-radius: 8px;
+}
+.episode{
+    display: flex;
+    justify-content: center;
+   position: absolute;
+   margin-left: 2rem;
+   bottom:20px;
+   /* text-align: center; */
+   /* align-items: center;
+gap: 15px;
+
+   color: white;
+} */
+/* .films{
+    font-size: 24px;
+    background-color: white;
+  color: black;
+  cursor: pointer;
+    bottom: 8px;
+    gap:12px;
+    font-weight: 400px;
+    display: flex;
+    width:230px;
+   justify-content: center;
+    border-radius: 3px;
+    padding: 15px;
+    
+}
+.filmss{
+    font-size: 24px;
+    cursor: pointer;
+    background-color: rgba(80, 74, 74, 0.673);
+  color: white;
+    bottom: 8px;
+    gap:12px;
+    font-weight: 400px;
+    display: flex;
+    justify-content: center;
+    width:230px;
+   text-align: center;
+    border-radius: 3px;
+    padding: 15px;
+    
+} */ 
+/* fourth */
+/* .fourth-card{
+    position: relative;
+    margin: 20px;
+    background-color: rgba(18, 18, 18, 0.799);
+    width:350px;
+    cursor: pointer;
+    border-radius: 7px;
+}
+.imgyy2{
+    width:100%;
+    border-top-left-radius:  10px;
+    border-top-right-radius:10px ;
+    background-position: center;
+    object-fit: cover;
+}
+.play{
+    position:absolute ;
+    align-items: center;
+    text-align: center;
+    left:36%;
+   bottom: 40%;
+    font-size: 40px;
+    background-color: rgba(21, 20, 20, 0.718);
+    color: white;
+    padding: 35px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+.error{
+  
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.erorrr{
+    margin-left: 20px;
+    font-size: 45px;
+    color: rgba(218, 215, 215, 0.494);
+} */
+/* .circle{
+  display: grid;
+  padding: 2px;
+  margin-right: 20px;
+  grid-template-columns: repeat(3px);
+ 
+}
+.circle1{
+    background-color: rgba(251, 244, 244, 0.494);
+    padding: 6px;
+    margin: 3px;
+    border-radius: 999px;
+} 
+
+
+
+.container{
+    display: flex;
+   overflow-x: scroll;
+   width:900px;
+   background-color: brown;
+}
+.container::-webkit-scrollbar{
+    display: none;
+}
+.slide{
+    background-color: aqua;
+    width:10%;
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+    flex:none;
+} */
+
+.contain{
+  /* display: flex;
+  justify-content: center; */
+   background-color: brown;
+   margin-top: 30px;
+   /* height:360px;
+  
+   width:100%; */
+  /* width:200%; */
+}
+.slid{
+    /* height: 100%;
+    width:200%; */
+    max-width: 500px;
+   display: flex;
+    gap:20px;
+    transition: all 0.3s ease-in;
+    overflow: hidden
+}
+/* .slid.carosel{
+    display: flex;
+} */
+.carosel{
+    /* width:170%; */
+    height: 100%;
+ 
+}
+.move{
+   
+    object-fit: cover;
+}
+
+
+
+.wrapper {
+    display: flex;
+    max-width: 650px;
+    width: 100%;
+    height: 400px;
+    background: #da3d3d;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  }
+  .wrapper i.button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 36px;
+    width: 36px;
+    background-color: #343f4f;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 36px;
+    color: #fff;
+    font-size: 15px;
+    transition: all 0.3s linear;
+    z-index: 100;
+    cursor: pointer;
+  }
+  i.button:active {
+    transform: scale(0.94) translateY(-50%);
+  }
+  i#prev {
+    left: 25px;
+  }
+  i#next {
+    right: 25px;
+  }
+  .image-container {
+    height: 320px;
+    max-width: 500px;
+    width: 100%;
+    overflow: hidden;
+  }
+  .image-container .carousel {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    transition: all 0.4s ease;
+  }
+  .carousel img {
+    height: 100%;
+    width: 100%;
+    border-radius: 18px;
+    border: 10px solid #fff;
+    object-fit: cover;
+  }

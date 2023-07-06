@@ -8,57 +8,493 @@ body{
    /* background-repeat:no-repeat;
    background-size:contain;
    background-position:center; */
-   background-color:#67686D ;
+background-color: rgb(11, 10, 10);
 }
+
+
+/* HEADER ROW */
+
 .portfolio{
     display: flex;
-   justify-content: center;
+   justify-content:space-between ;
    padding:20px;
+   color: white;
     align-items: center;
+    /* position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px; */
+}
+.NETFLIX{
+    font-size: 50px;
+    color: red;
+    
+}
+.home{
+    display: flex;
+    gap:20px;
+    align-items: center;
+}
+.BELL,
+.SEARCH{
+    font-size: 26px;
+    /* padding: 2px; */
+    align-items: center;
+    /* padding: 2px; */
+}
+.form{
+    height: 40px;
+    display: flex;
+    padding: 6px;
+  
+    align-items: center;
+    background-color: rgb(11, 10, 10);
+}
+.USER{
+    font-size:45px;
+    color: rgb(63, 121, 102);
+}
+.forms{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+input{
+    background-color: rgb(11, 10, 10);
+    outline: none;
+    margin: 20px;
+    padding: 10px;
+    width:120%;
+    font-size: 16px;
+    color: white;
+    border-style: none;
+    border-radius: 19px;
+}
+input::placeholder{
+    color: rgb(245, 238, 238);
+    font-size: 20px;
 }
 nav ul{
     display: flex;
     gap:60px;
+    display: none;
 }
 li{
     list-style:none;
-    font-size: 20px;
+    font-size: 23px;
+    border: 1px solid rgba(199, 199, 173, 0.268);
 }
 a{
-    
+    border-radius: 30px;
+    padding: 12px;
     text-decoration: none;
-    color:black;
+    color:white;
+  }
+/* END OF HEADER */
+
+
+/* FIRST MOVIE PLATFORM */
+.card-imgg1{
+    position: relative;
+    display: flex;
+    justify-content: center;
+   margin-top: 20px;
+}
+.action1{
+    display: none;
+}
+.imgyy1{
+    text-align: center;
+    width:60vw;
+    height:30vw;
+    border-radius: 9px;
+    box-shadow: 10px 3px 2px  rgba(64, 63, 63, 0.625);
+}
+.overview1{
+    display: block;
+    justify-content: center;
+   position: absolute;
+   margin-left: 2rem;
+   bottom:20px;
+   /* text-align: center; */
+   align-items: center;
+   row-gap: 50px;
+
+   color: white;
+}
+.films{
+    font-size: 24px;
+    background-color: white;
+  color: black;
+  cursor: pointer;
+    bottom: 8px;
+    gap:12px;
+    font-weight: 400px;
+    display: flex;
+    width:230px;
+   justify-content: center;
+    border-radius: 3px;
+    padding: 15px;
+    
+}
+.filmss{
+    font-size: 24px;
+    cursor: pointer;
+    background-color: rgba(38, 35, 35, 0.746);
+  color: white;
+    bottom: 8px;
+    gap:12px;
+    font-weight: 400px;
+    display: flex;
+    justify-content: center;
+    width:230px;
+   text-align: center;
+    border-radius: 3px;
+    padding: 15px;
+    
+}
+.episode{
+    display: flex;
+    justify-content: center;
+   margin-left: 2rem;
+   bottom:20px;
+   /* text-align: center; */
+   align-items: center;
+    gap: 15px;
+
+   color: white;
+}
+/* END  */
+
+
+/* TRENDING MOVIES AND POPULAR MOVIES  */
+.movie-camp{
+    display: flex;
+    overflow-x: scroll;
+    column-gap: 22px;  
+    margin-left: 12px;
+}
+.movie-camp::-webkit-scrollbar{
+    display: none;
+}
+.rating1{
+    position: absolute;
+    /* top: 20px; */
+   right:0px;
+   background-color: red;
+ border-style: none;
+ cursor: pointer;
+ color: white;
+ padding: 15px;
+   border-bottom-left-radius: 30px;
+}
+.Watch{
+    font-size: 20px;
+    background-color: white;
+    position: absolute;
+    bottom: 9px;
+    font-weight: 400px;
+    width:50%;
+    text-align: center;
+    border-radius: 3px;
+    padding: 10px;
+    left:5rem;
+}
+.watchit{
+    font-size: 20px;
+    background-color: white;
+    position: absolute;
+    bottom: 17px;
+    font-weight: 400px;
+    width:50%;
+    text-align: center;
+    border-radius: 3px;
+    padding: 10px;
+    left:5rem;
 }
 
-.movie-camp{
-  display: grid;
-  grid-template-columns: repeat(5,280px);
-  justify-content: center;
+.imgy{
+    border-radius: 9px;
+    width:100%;
+   text-align: center;
+    object-fit: contain;
+   height:150%;
 }
-.trending,
-#tvseries{
-    margin-left: 10rem;
-}
-.scary{
+
+.card-img{
     position: relative;
-    width:250px;
-    margin: 1rem;
-    cursor: pointer;
-    background-color: rgb(232, 227, 236);
-    border-radius: 10px;
-    height:50vh;
+    /* margin: 20px; */
+/* text-align: center; */
+width: 300px;
+cursor: pointer;
+flex:none;
+border-radius: 7px;
+transition: all 1s;
 }
-.scary1{
-    height:50vh;
-    position: relative;
-    width:240px;
-    margin: 1rem;
-    background-color: rgb(232, 227, 236);
-    border-radius: 10px;
+
+.card-img:hover{
+    background-color: aqua;
+    transform: scale(1.1);
 }
 .movey{
     display: flex;
-    overflow: hidden;
+    column-gap: 22px;
+    overflow-x: scroll;
+}
+.movey::-webkit-scrollbar{
+    display: none;
+}
+.links{
+    color: black;
+    text-decoration: none;
+   }
+/* ENDING  */
+
+
+/* TV SERIES */
+.ray{
+    margin-left: 20px;
+    margin-top: 10px;
+    display: flex;
+   gap: 20px;
+   overflow-x: scroll;
+}
+.series{
+    margin-top: 20px;
+    margin-left: 32px;
+    margin-bottom: 8px;
+    color: white;
+}
+.ray::-webkit-scrollbar{
+    display: none;
+}
+.ratedd{
+    width:280px;
+    border-radius: 10px;
+    transition: all 1s;
+    cursor: pointer;
+}
+.ratedd:hover{
+transform: scale(1.1);
+}
+/* ENDING */
+
+
+/* ACTION TV SERIES */
+.cards{
+    transition: all 4ms;
+}
+.card-imgg{
+    margin-left: 12px;
+    display: flex;
+    gap: 19px;
+   position: relative;
+    overflow-x: scroll;
+   }
+   .card-imgg::-webkit-scrollbar{
+       display: none;
+   }
+/* ENDING */
+
+
+/* SHOW MODAL */
+.imy{
+    width:100%;
+    height:190px;
+    margin-top: 10px;
+    object-fit: cover;
+}
+.playit{
+    border-radius: 8px;
+    text-align: center;
+    padding: 12px;
+    cursor: pointer;
+    color: black;
+    margin-top: 10px;
+    background-color: rgb(245, 243, 241);
+}
+.playitt{
+    border-radius: 8px;
+    text-align: center;
+    padding: 12px;
+    margin-top: 7px;
+    cursor: pointer;
+    background-color: rgba(50, 50, 49, 0.587);
+}
+.show{
+   top:50%;
+   /* bottom: 50%; */
+   left: 50%;
+   transform: translate(-50%,-50%);
+    position: fixed;
+    /* background-color: rgb(26, 203, 26); */
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    color: white;
+    /* display:none; */
+    cursor: pointer;
+    z-index: 12px;
+}
+.year{
+    margin-top: 15px;
+}
+.tops{
+    display:flex;
+    align-items: center;
+}
+.update{
+    margin:10px;
+}
+.description{
+    margin-top: 15px;
+    font-size: 16px;
+}
+.iconss{
+    margin-left: 20px;
+    display: flex;
+    gap:58px;
+    padding-bottom: 40px;
+    margin-top: 20px;
+}
+.icon-To{
+    display: grid;
+}
+.icon{
+    margin-bottom: 7px;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+}
+.ratings{
+    background-color: red;
+    width:32px;
+    margin-top: 8px;
+    margin-right: 8px;
+    border-radius: 5px;
+    text-align: center;
+    /* padding:10px; */
+}
+
+.Times{
+    /* padding: 5px; */
+    position: absolute;
+    top: 20px;
+   right:20px;
+   background-color: rgb(53, 53, 57);
+ border-style: none;
+ cursor: pointer;
+ padding: 6px;
+ border-radius: 999px;
+   border-bottom-left-radius: 10px;
+}
+.timess{
+    font-size: 30px;
+    color: white;
+}
+.list-rate{
+    color: rgba(134, 100, 13, 0.565);   
+}
+
+/* ENDING */
+
+
+
+/* CONTINUE WATCHING */
+.Continue{
+    font-size: 35px;
+    color: white;
+    margin-top: 20px;
+    margin-left: 32px;
+    margin-bottom: 8px;
+}
+.fourth{
+    display: flex;
+    margin-left: 30px;
+
+}
+.fourth-card{
+    position: relative;
+    margin: 20px;
+    background-color: rgba(18, 18, 18, 0.799);
+    width:350px;
+    cursor: pointer;
+    border-radius: 7px;
+   
+}
+.imgyy2{
+    width:100%;
+    border-top-left-radius:  10px;
+    border-top-right-radius:10px ;
+    background-position: center;
+    object-fit: cover;
+}
+.play{
+    position:absolute ;
+    align-items: center;
+    text-align: center;
+    left:36%;
+   bottom: 40%;
+    font-size: 40px;
+    background-color: rgba(21, 20, 20, 0.718);
+    color: white;
+    padding: 35px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+.error{
+   /* margin-bottom: 10px; */
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.erorrr{
+    margin-left: 20px;
+    font-size: 45px;
+    color: rgba(218, 215, 215, 0.494);
+}
+.circle{
+  display: grid;
+  padding: 2px;
+  margin-right: 20px;
+  grid-template-columns: repeat(3px);
+ 
+}
+.circle1{
+    background-color: rgba(251, 244, 244, 0.494);
+    padding: 6px;
+    margin: 3px;
+    border-radius: 999px;
+}
+/* END */
+
+
+
+/* SEARCHING MISSING NAMES */
+span{
+    color:red;
+    font-size: 35px;
+}
+.casts{
+    font-size: 18px;
+    margin-top: 5px;
+    color: rgba(134, 100, 13, 0.565);
+}
+.imgyy{
+   width:260px;
+   border-radius: 18px;
+   transition: all 1s;
+   cursor: pointer;
+}
+.imgyy:hover{
+transform: scale(1.1);
+}
+.img{
+    display: flex;
+}
+.overr-view{
+    font-size: 29px;
+    /* margin-bottom: 20rem; */
 }
 .movie{
     border-top-left-radius: 20px;
@@ -82,24 +518,7 @@ a{
 .title{
     font-size: 14px;
 }
-input{
-    background-color: rgba(126, 126, 126, 0.458);
-    outline: none;
-    margin: 20px;
-    padding: 10px;
-    /* width:20%; */
-    font-size: 16px;
-    color: white;
-    border-style: none;
-    border-radius: 19px;
-}
-input::placeholder{
-    color: black;
-}
-/* .form{
-    text-align: center;
-    align-items: center;
-} */
+
 .overview{
     position: absolute;
     top:0px;
@@ -124,57 +543,230 @@ input::placeholder{
    background-color: rgba(226, 217, 217, 0.508);
     
 }
-@media screen and (max-width: 480px){
+.trending,
+#tvseries{
+color: white;
+margin-top: 20px;
+ margin-left: 32px;
+    margin-bottom: 8px;
+}
+/* FOOTER */
+.footer{
+    display: none;
+   
+}
+
+/* ENDING */
+
+@media screen and (max-width:480px) {
+    .card-img{
+        width: 120px;
+    }
+
+   /* TRENDING MOVIES */
     .movie-camp{
-      grid-template-columns: repeat(3,150px);
-      justify-content: center;
+        margin-left: 12px;
+       column-gap: 10px;
+       margin-left: 10px;
+        text-align: center;
+        grid-template-columns: repeat(4,110px);
     }
-    input{
+    .Watch{
+        font-size: 10px;
+        background-color: white;
+        position: absolute;
+        bottom: 9px;
+        font-weight: 400px;
+        width:50%;
+        text-align: center;
+        border-radius: 3px;
+        padding: 5px;
+        left:2rem;
+        transition: 3s ;
+    }
+    /* ENDING */
+
+    /* CONTINUE WATCHING */
+    .rating1{
+        position: absolute;
+        padding: 6px;
+    }
+    .play{
+        font-size: 15px;
+        padding: 20px; 
+    }
+     .erorrr{
+         margin-left: 10px;
+         font-size: 22px;
+         color: rgba(218, 215, 215, 0.494);
+     }
+     .circle{
+       padding: 1px;
+       margin-right: 9px;
+     }
+     .circle1{
+         background-color: rgba(251, 244, 244, 0.494);
+         padding: 2px;
+     }
+     .fourth{
+        /* margin-top: 20px; */
+        display: flex;
+        margin-left: 8px;
+    }
+     .fourth-card{
+        position: relative;
+        margin: 4px;
+        background-color: rgba(18, 18, 18, 0.799);
+        width:110px;
+        cursor: pointer;
+        border-radius: 7px;
+    }
+    .imgyy2{
+        width:100%;
+        /* border-top-left-radius:  10px;
+        border-top-right-radius:10px ;
+        background-position: center;
+        object-fit: cover; */
+    }
+    .episode{
        
-        /* width:50%; */
-        border-radius: 19px;
+       margin-left: 3rem;
        
     }
+    .imgyy{
+        width:120px;
+        text-align: center;
+        border-radius: 18px;
+    }
+    /* ENDING */
+
+    /* FIRST MOVIE PLATFORM  */
+.imgyy11{ 
+         width:85%;
+        margin-left: 2rem;
+        /* height: 150%; */
+    } 
+    .action1{
+       
+        display: block;
+    }
+    .cards{
+        display: none;
+        text-align: center;
+    }
+    .episode{
+        
+        margin-left: 1rem;
+    }
+    .films,
+    .filmss {
+       
+        width:170px;
+    }
+    /* ENDING */
+
+    /* HEADER PLATFORM */
     .portfolio{
-        display:grid;
-      /* flex-direction: column-reverse; */
-       padding:10px;
-        /* align-items: center; */
+        display:block;
     }
     nav ul{
         display: flex;
-        gap:6px; 
+        gap:10px;
+       margin-bottom: 10px;
     }
-    .trending{
-        margin-top: 40px;
-        font-size: 18px;
+    li{
+        cursor: pointer;
+        font-size: 20px;
+        width:30%;
+        text-align: center;
+        padding: 7px;
+        border-radius:20px;
     }
     a{
-       background-color: rgba(22, 26, 29, 0.581);
-       border-radius: 18px;
-       color: white;
-       font-size: 12px;
-       padding: 10px;
-       border-style: none;
-       border:1px solid rgb(32, 31, 31);
+        
+        padding: 10px;
+        
     }
-    .scary,
-    .scary1{
-        height:28vh;
-        width:120px;
-        margin: 1rem;
-        background-color: rgb(232, 227, 236);
-        border-radius: 10px;
+    .NETFLIX{
+      display: none;
     }
-    .movie{
-        width:100%;
-        height:20vh;
+    .home{
+        display: block;
+
     }
-    .overview{
-       
-     font-size:8px;
+    .form{
+        width: 40%;
+        border-bottom: none;
     }
-    .title{
-        font-size: 8px;
+    .forms{
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 30px;
     }
+    .arrow{
+        width:35%;
+        align-items: center;
     }
+    .arrow1{
+        width:30%;
+        align-items: center;
+    }
+    .arrow2{
+        width:20%;
+        align-items: center;
+    }
+    .arrowi{
+        font-size: 22px;
+    }
+    .BELL,
+    .SEARCH{
+    font-size: 18px;
+    /* padding: 2px; */
+    align-items: center;
+    /* padding: 2px; */
+    }
+    .NAVBAR{
+        margin-top: 20px;
+    }
+    /* ENDING  */
+
+    .show{
+         width: 100%;   
+     }
+
+     /* ACTION SERIES */
+  .ratedd{
+    width:120px;
+  }   
+  .footer{
+  /* background-image: radial-gradient(circle, rgb(28, 26, 7), rgba(28, 26, 7), rgb(28, 26, 7)); */
+  background-color: rgb(50, 48, 22);
+    display:flex;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    align-items: center;
+    height:9%;
+    justify-content: space-evenly;
+}
+.b-icon{
+    align-items: center;
+    color:rgb(98, 91, 78);
+    font-size: 35px;
+   margin-top: 12px;
+}
+.bottom{
+    text-align: center;
+}
+.names{
+    color:rgb(95, 84, 37);
+    margin-bottom: 40px;
+}
+}
+
+
+
+
+
+

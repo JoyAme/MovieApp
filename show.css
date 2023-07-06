@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+background-color: rgb(209, 56, 56);
+}
+
+.imy{
+    width:100%;
+    height:190px;
+    margin-top: 10px;
+    object-fit: cover;
+}
+.playit{
+    border-radius: 8px;
+    text-align: center;
+    padding: 12px;
+    cursor: pointer;
+    color: black;
+    margin-top: 10px;
+    background-color: rgb(245, 243, 241);
+}
+.playitt{
+    border-radius: 8px;
+    text-align: center;
+    padding: 12px;
+    margin-top: 7px;
+    cursor: pointer;
+    background-color: rgba(50, 50, 49, 0.587);
+}
+.show{
+   top:50%;
+   /* bottom: 50%; */
+   left: 50%;
+   transform: translate(-50%,-50%);
+    position: fixed;
+    background-color: rgb(30, 31, 30);
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    color: white;
+    display:none;
+    cursor: pointer;
+    z-index: 12px;
+}
+.year{
+    margin-top: 15px;
+}
+.tops{
+    display:flex;
+    align-items: center;
+}
+.update{
+    margin:10px;
+}
+.description{
+    margin-top: 15px;
+    font-size: 16px;
+}
+.iconss{
+    margin-left: 20px;
+    display: flex;
+    gap:58px;
+    padding-bottom: 40px;
+    margin-top: 20px;
+}
+.icon-To{
+    display: grid;
+}
+.icon{
+    margin-bottom: 7px;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+}
+.ratings{
+    background-color: red;
+    width:32px;
+    margin-top: 8px;
+    margin-right: 8px;
+    border-radius: 5px;
+    text-align: center;
+    /* padding:10px; */
+}
+
+.Times{
+    /* padding: 5px; */
+    position: absolute;
+    top: 20px;
+   right:20px;
+   background-color: rgb(53, 53, 57);
+ border-style: none;
+ cursor: pointer;
+ padding: 6px;
+ border-radius: 999px;
+   border-bottom-left-radius: 10px;
+}
+.timess{
+    font-size: 30px;
+    color: white;
+}
+.list-rate{
+    color: rgba(134, 100, 13, 0.565);   
+}
