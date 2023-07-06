@@ -656,7 +656,10 @@ margin-top: 20px;
     }
     .episode{
         
-        margin-left: 2rem;
+        margin-left: 1rem;
+    }
+    .Watch1{
+        font-size: 18px;
     }
     .films,
     .filmss {
@@ -668,6 +671,9 @@ margin-top: 20px;
     /* HEADER PLATFORM */
     .portfolio{
         display:block;
+    }
+    .input::placeholder{
+        font-size: 12px;
     }
     nav ul{
         display: flex;
@@ -704,19 +710,21 @@ margin-top: 20px;
         margin-bottom: 30px;
     }
     .arrow{
-        width:35%;
+        width:30%;
+        font-size: 16px;
         align-items: center;
     }
     .arrow1{
-        width:30%;
+        font-size: 16px;
+        width:26%;
         align-items: center;
     }
     .arrow2{
-        width:20%;
+        width:24%;
         align-items: center;
     }
     .arrowi{
-        font-size: 22px;
+        font-size: 16px;
     }
     .BELL,
     .SEARCH{
@@ -747,21 +755,22 @@ margin-top: 20px;
     left: 0px;
     right: 0px; */
     align-items: center;
-    height:9%;
+    height:7%;
     justify-content: space-evenly;
 }
 .b-icon{
     align-items: center;
     color:rgb(148, 145, 140);
-    font-size: 35px;
-   margin-top: 12px;
+    font-size: 30px;
+   padding: 5px;
 }
 .bottom{
     text-align: center;
 }
 .names{
     color:rgb(178, 177, 172);
-    margin-bottom: 40px;
+    margin-bottom: 32px;
+    font-size: 12px;
 }
 }
 
