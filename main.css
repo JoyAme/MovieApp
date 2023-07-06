@@ -656,15 +656,15 @@ margin-top: 20px;
     }
     .episode{
         
-        margin-left: 1rem;
+        /* margin-left: 1rem; */
     }
     .Watch1{
-        font-size: 18px;
+        font-size: 14px;
     }
     .films,
     .filmss {
        
-        width:150px;
+        width:130px;
     }
     /* ENDING */
 
@@ -711,16 +711,17 @@ margin-top: 20px;
     }
     .arrow{
         width:30%;
-        font-size: 16px;
+        font-size: 12px;
         align-items: center;
     }
     .arrow1{
-        font-size: 16px;
+        font-size: 12px;
         width:26%;
         align-items: center;
     }
     .arrow2{
         width:24%;
+        font-size: 12px;
         align-items: center;
     }
     .arrowi{
