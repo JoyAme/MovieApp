@@ -661,11 +661,15 @@ margin-top: 20px;
     .Watch1{
         font-size: 14px;
     }
+    .Watch11{
+        font-size: 12px; 
+    }
     .films,
     .filmss {
-       
-        width:130px;
+        padding: 10px;
+        width:120px;
     }
+
     /* ENDING */
 
     /* HEADER PLATFORM */
@@ -701,7 +705,7 @@ margin-top: 20px;
 
     }
     .form{
-        width: 40%;
+        width: 56%;
         border-bottom: none;
     }
     .forms{
@@ -711,16 +715,19 @@ margin-top: 20px;
     }
     .arrow{
         width:30%;
+        padding: 8px;
         font-size: 12px;
         align-items: center;
     }
     .arrow1{
         font-size: 12px;
         width:26%;
+        padding: 8px;
         align-items: center;
     }
     .arrow2{
         width:24%;
+        padding: 8px;
         font-size: 12px;
         align-items: center;
     }
