@@ -656,12 +656,12 @@ margin-top: 20px;
     }
     .episode{
         
-        margin-left: 1rem;
+        margin-left: 2rem;
     }
     .films,
     .filmss {
        
-        width:170px;
+        width:150px;
     }
     /* ENDING */
 
@@ -740,19 +740,19 @@ margin-top: 20px;
   }   
   .footer{
   /* background-image: radial-gradient(circle, rgb(28, 26, 7), rgba(28, 26, 7), rgb(28, 26, 7)); */
-  background-color: rgb(50, 48, 22);
+  background-color: rgb(69, 69, 63);
     display:flex;
-    position: fixed;
+    /* position: fixed;
     bottom: 0px;
     left: 0px;
-    right: 0px;
+    right: 0px; */
     align-items: center;
     height:9%;
     justify-content: space-evenly;
 }
 .b-icon{
     align-items: center;
-    color:rgb(98, 91, 78);
+    color:rgb(148, 145, 140);
     font-size: 35px;
    margin-top: 12px;
 }
@@ -760,7 +760,7 @@ margin-top: 20px;
     text-align: center;
 }
 .names{
-    color:rgb(95, 84, 37);
+    color:rgb(178, 177, 172);
     margin-bottom: 40px;
 }
 }
