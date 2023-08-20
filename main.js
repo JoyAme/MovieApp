@@ -49,6 +49,11 @@ const showmovies=(data)=>{
 
     });
 }
+ 
+
+const cardy=document.querySelector('.card-imgg1')
+const inputyy=document.getElementById('search-hy')
+const boddy=document.getElementById('.boddy')
 
 
 // MODAL POP UP
@@ -63,15 +68,29 @@ const showmovies=(data)=>{
 // FORM EVENTLISTNER
     form.addEventListener('submit',(e)=>{
     e.preventDefault()
+    // let infill=inputyy
     let searchterm=input.value
-    if(searchterm && searchterm !==''){
-    getmovies(search+'&query='+searchterm)
+    if(searchterm  && searchterm !==''){
+    getmovies(search+'&query='+searchterm )
+    cardy.style.display='none'
     console.log(searchterm)
     }else if (searchterm !== search ){
         window.location.reload()
     }
+
+    
     })
 
+
+    inputyy.addEventListener('click',function(){
+  
+        let searchterm=input.value
+        if(searchterm && searchterm !==''){
+            getmovies(search+'&query='+searchterm )
+            cardy.style.display='none'
+            console.log(searchterm)
+        }
+})
 
 // POPULAR TV SERIES
 const populartv=(api)=>{

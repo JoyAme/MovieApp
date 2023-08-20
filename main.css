@@ -39,6 +39,7 @@ background-color: rgb(11, 10, 10);
 .SEARCH{
     font-size: 26px;
     /* padding: 2px; */
+    cursor: pointer;
     align-items: center;
     /* padding: 2px; */
 }
@@ -92,7 +93,9 @@ a{
   }
 /* END OF HEADER */
 
-
+.scroll{
+    color:white;
+}
 /* FIRST MOVIE PLATFORM */
 .card-imgg1{
     position: relative;
@@ -758,12 +761,13 @@ margin-top: 20px;
   /* background-image: radial-gradient(circle, rgb(28, 26, 7), rgba(28, 26, 7), rgb(28, 26, 7)); */
   background-color: rgb(69, 69, 63);
     display:flex;
-    /* position: fixed;
+    position: fixed;
     bottom: 0px;
     left: 0px;
-    right: 0px; */
+    right: 0px;
     align-items: center;
     height:7%;
+    padding-top: 1rem;
     justify-content: space-evenly;
 }
 .b-icon{
@@ -771,6 +775,9 @@ margin-top: 20px;
     color:rgb(148, 145, 140);
     font-size: 30px;
    padding: 5px;
+}
+.card-imgg{
+    margin-bottom: 5rem;
 }
 .bottom{
     text-align: center;
