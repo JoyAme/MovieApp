@@ -767,13 +767,13 @@ margin-top: 20px;
     right: 0px;
     align-items: center;
     height:7%;
-    padding-top: 1rem;
+    padding-top: 2rem;
     justify-content: space-evenly;
 }
 .b-icon{
     align-items: center;
     color:rgb(148, 145, 140);
-    font-size: 30px;
+    font-size: 25px;
    padding: 5px;
 }
 .card-imgg{
