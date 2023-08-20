@@ -95,6 +95,8 @@ a{
 
 .scroll{
     color:white;
+    margin-left: 20px;
+    
 }
 /* FIRST MOVIE PLATFORM */
 .card-imgg1{
@@ -785,7 +787,7 @@ margin-top: 20px;
 }
 .names{
     color:rgb(178, 177, 172);
-    margin-bottom: 32px;
+    padding-bottom: 3rem;
     font-size: 10px;
 }
 }
